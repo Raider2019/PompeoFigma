@@ -14,7 +14,7 @@ body {
 
     font-family: 'Libre Franklin', sans-serif;
 
-
+overflow: hidden ;
     height: 100%;
 }
 
@@ -140,5 +140,100 @@ display: inline;
    
     background: url(../img/bg_into.png) no-repeat center ;
     background-size:cover;
-    height: 708px; dsd
+    height: 708px; 
+}
+
+.intro_wrapper{
+    max-width: 1152px;
+    margin: 0 auto;
+    
+}
+.intro_block{
+    display: flex;
+    padding-top: 95px;
+
+
+
+}
+.pottery{
+    margin-top: 97px;
+
+}
+.pottery_desc_top{
+
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+/* identical to box height, or 171% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #D77474;
+
+
+}
+.pompeo_title{
+    
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+
+color: #000000;
+}
+.img_intro{
+    margin-top: 33px;
+}
+
+.i{
+    display: inline;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 68px;
+line-height: 68px;
+
+/* identical to box height, or 100% */
+
+color: #AC1313;
+
+
+}
+.text_pottery{
+    
+font-family: 'Libre Franklin',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-top: 14px;
+/* identical to box height, or 162% */
+
+color: #6C6C6C;
+}
+.btn_collection{
+    margin-top: 70px;
+    width: 201px;
+    background: #AC1313;
+border-radius: 0px;
+padding-left: 40px;
+padding-top: 20px;
+padding-bottom: 21px;
+padding-right: 31px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 22px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
