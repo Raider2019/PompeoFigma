@@ -356,6 +356,7 @@ margin-left: 76px;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top:64px ;
+
 }
 
 .vases {
@@ -368,6 +369,8 @@ margin-left: 76px;
     flex-direction: column;
     align-items: center;
     padding-top: 46px;
+    justify-content: center;
+
 
 }
 .mugs{
@@ -380,6 +383,7 @@ margin-left: 76px;
     flex-direction: column;
     align-items: center;
     padding-top: 46px;
+
 } 
 .Plates{
     display: flex;
@@ -395,7 +399,7 @@ margin-left: 76px;
 .categor_desc{
     padding-bottom: 57px;
     
-font-family: 'Poppins';
+font-family: 'Poppins',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -415,8 +419,46 @@ color: #FFFFFF;
 
 
 }
+.wrapper_history{
+   max-width: 1172px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.block_1990{
+margin-right: 134px;
+
+}
+.title_history{
+    
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 36px;
+
+/* identical to box height, or 124% */
+
+color: #000000;
 
 
+
+}
+.text_history{
+    width:501px;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+/* or 171% */
+
+color: #6C6C6C;
+
+
+}
 @media only screen and (max-width:1200px) {
     .intro {
         background: url(../img/bg_into_1200px.png) no-repeat;
