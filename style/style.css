@@ -12,7 +12,7 @@ html {
 
 .wrapper {
     min-height: 100%;
-    overflow: hidden;
+overflow: hidden;
     display: flex;
     flex-direction: column;
 }
@@ -21,7 +21,7 @@ body {
 
     font-family: 'Libre Franklin', sans-serif;
 
-    height: 100%;
+
 }
 
 img {
@@ -260,7 +260,7 @@ header {
 
 .product {
     position: relative;
-    height: 968px;
+    height: auto;
 
 }
 
@@ -350,7 +350,7 @@ margin-left: 76px;
 }
 
 .wrapper_categories_img {
-    max-width: 97%;
+    max-width: 97.67%;
 
     display: flex;
     justify-content: space-around;
@@ -422,7 +422,7 @@ color: #FFFFFF;
 .wrapper_history{
    max-width: 1172px;
     display: flex;
-    flex-wrap: wrap;
+
     margin: 0 auto;
     margin-top: 88px;
 }
@@ -445,17 +445,24 @@ color: #000000;
 
 
 }
+.block_1990{
+    max-width: 42% ; 
+}
+.provide{
+    max-width: 42% ; 
+}
 .text_history{
-    width:501px;
-    font-family: 'Libre Franklin';
+
+    font-family: 'Libre Franklin',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 
 /* or 171% */
-
+margin-top: 23px;
 color: #6C6C6C;
+margin-bottom: 152px; ;
 
 
 }
@@ -469,7 +476,17 @@ color: #6C6C6C;
         display: flex;
         padding-top: 50px;
     }
-
+    .hand_craft {
+        position: absolute;
+        display: block;
+        margin-left: 0;
+        left: 0;
+        top: 291px;
+        bottom: 0;
+        height: 100%;
+        writing-mode: vertical-lr;
+        display: flex;
+    }
 
 
     .pompeo_title {
@@ -515,7 +532,18 @@ color: #6C6C6C;
         margin-top: 40px;
     }
 
-
+    .hand_craft {
+        position: absolute;
+        visibility: hidden;
+        display: none;
+        margin-left: 0;
+        left: 0;
+        top: 291px;
+        bottom: 0;
+        height: 100%;
+        writing-mode: vertical-lr;
+        display: flex;
+    }
     .pompeo_title {
 
         font-family: 'Poppins', sans-serif;
