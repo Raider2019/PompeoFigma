@@ -12,7 +12,7 @@ html {
 
 .wrapper {
     min-height: 100%;
-overflow: hidden;
+
     display: flex;
     flex-direction: column;
 }
@@ -466,6 +466,125 @@ margin-bottom: 152px; ;
 
 
 }
+.wrapper_ceramics{
+position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.row{
+    max-width: 1172px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 224px;
+}
+.gray_one{
+    width: 500px;
+    height: 220px;
+    background: #F5F5F5;
+    margin-bottom: 99px;
+    margin-right: 86px;
+}
+.gray_two{
+    width: 500px;
+    height: 220px;
+    background: #F5F5F5;
+
+    margin-left: 186px;
+}
+
+.ceramic_vase{
+    width: 250px;
+    height: 509px;
+    position: absolute;
+    top:-77px;
+    left: 125px;
+
+}
+.orange_ceramica{
+    width: 350px;
+    height: 416px;  
+    position: absolute;
+    bottom: -77px;
+    right: 151px;
+}
+.Featured {
+  border-bottom: 1px solid gray;
+position: relative;
+
+}
+.featured{
+    position: absolute;
+display: block;
+margin-right: 76px;
+right: 0;
+top:291px;
+bottom: 0;  
+height: 100%;
+writing-mode: vertical-lr;
+display: flex;
+}
+.rotate_two{
+    
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+
+/* identical to box height, or 170% */
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #DBDBDB;
+
+transform: rotate(-180deg);
+}
+.text_features{
+width: 388px;
+margin-left: 14px;
+}
+.title_features{
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+
+
+padding-bottom: 25px;
+/* identical to box height, or 142% */
+
+color: #000000;
+}
+.desc_featured{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+/* or 171% */
+
+color: #6C6C6C;
+
+
+}
+.viev_detailis{
+    
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+margin-top: 28px;
+/* identical to box height, or 171% */
+
+color: #000000;
+}
 @media only screen and (max-width:1200px) {
     .intro {
         background: url(../img/bg_into_1200px.png) no-repeat;
@@ -487,7 +606,17 @@ margin-bottom: 152px; ;
         writing-mode: vertical-lr;
         display: flex;
     }
-
+    .featured{
+        position: absolute;
+    display: block;
+    margin-right: 0;
+    right: 0;
+    top:291px;
+    bottom: 0;  
+    height: 100%;
+    writing-mode: vertical-lr;
+    display: flex;
+    }
 
     .pompeo_title {
 
@@ -534,8 +663,7 @@ margin-bottom: 152px; ;
 
     .hand_craft {
         position: absolute;
-        visibility: hidden;
-        display: none;
+        
         margin-left: 0;
         left: 0;
         top: 291px;
@@ -543,6 +671,18 @@ margin-bottom: 152px; ;
         height: 100%;
         writing-mode: vertical-lr;
         display: flex;
+    }
+    .featured{
+        position: absolute;
+        visibility: hidden;
+        display: none;;
+    margin-right: 76px;
+    right: 0;
+    top:291px;
+    bottom: 0;  
+    height: 100%;
+    writing-mode: vertical-lr;
+    display: flex;
     }
     .pompeo_title {
 
